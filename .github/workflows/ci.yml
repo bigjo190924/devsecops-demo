@@ -23,4 +23,5 @@ jobs:
           image-ref: 'myapp:latest'
           format: 'table'
           ignore-unfixed: true
-          severity: 'CRITICAL,HIGH'
+          severity: 'CRITICAL'
+          exit-code: '1'
